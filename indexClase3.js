@@ -10,7 +10,7 @@ while(nombre != "ESC" ){
             alert("Bienvenida" + " " + nombre + " " + apellido + " " + numero);
             break;
        default:
-           alert("Datos incorrectos." + " " + "Intente de nuevo")
+           alert("Datos incorrectos." + " " + "Intente de nuevo." + " " + "Para salir escriba ESC")
            break;
    }
    nombre = prompt("Ingresar su nombre");
